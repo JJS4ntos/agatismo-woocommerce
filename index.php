@@ -12,10 +12,10 @@ if ( ! defined( 'WPINC' ) ) {
     die;
 }
 
-define('PLUGIN_NAME', 'Runcinator');
+define('PLUGIN_NAME', 'Agatismo');
 define('SD_PATH', plugin_dir_url( __FILE__ ));
 define('SD_PLUGIN_PATH', plugin_dir_path( __FILE__ ));
-define('URL_SCOPE', 'runcinator-api');
+define('URL_SCOPE', 'agatismo-api');
 
 require_once 'vendor/autoload.php';
 require_once 'src/Config/Setup.php';

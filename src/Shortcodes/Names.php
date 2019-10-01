@@ -4,7 +4,7 @@
   trait Names {
 
     public $names = [
-        //'shortcode' => 'Controller@method',
+        'agatismo_my_account' => 'UsersController@my_account',
     ];
 
   }

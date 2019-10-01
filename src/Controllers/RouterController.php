@@ -22,7 +22,7 @@ class RouterController {
   }
 
   /*
-    Retornaa funcção correspondente ao callback indicado seguindo o formato:
+    Retorna função correspondente ao callback indicado seguindo o formato:
     controller@function
   */
   private function resolveCallback(String $url, String $callback, String $method){
